@@ -48,9 +48,9 @@ function OP.compile(code, ret_code)
 	end
 end
 
-print(OP.compile([[
-//Hello World!
-call print("Hello World!")
-global a = globals["foo"]
-assign var1 = "Hello!"
-]], true))
+--print(OP.compile([[
+--//Hello World!
+--call print("Hello World!")
+--global a = globals["foo"]
+--assign var1 = "Hello!"
+--]], true)) -- Example usage example!
